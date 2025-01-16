@@ -117,7 +117,7 @@ function register () {
     let dotIndex = valueEmailUser.indexOf('.', atIndex);
 
     if (valueNameUser.length >= 3 && atIndex > 0 && dotIndex > atIndex && valueEmailUser.includes('@') && valuePasswordUser.length >= 6) {
-       console.log('asd');
+        messageRegister.textContent = ('Правильно)');
 
     }else{
         messageRegister.textContent = ('Введiть всi поля правильно!!');
